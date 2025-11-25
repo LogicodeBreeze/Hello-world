@@ -5,13 +5,16 @@
 ---
 
 ## Módulos de desarrollo de aplicaciones web
-
-- Despliegue de aplicaciones web
+- Entornos de desarrollo
 - Programación
 - Sistemas informáticos 
 - Base de datos
-- Diseño de interfaz web
 - Lenguaje de marcas
+- Amazon web services
+- Despliegue de aplicaciones web
+- Diseño de interfaz web
+- Desarrollo de entorno servidor
+- Desarrollo de entorno cliente
 
 
 ### *Imagen*
@@ -29,7 +32,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Mi primera página en GitHub Pages</title>
+  <title>Mi página en GitHub Pages</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
