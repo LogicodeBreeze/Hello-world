@@ -172,6 +172,7 @@ Usa `console.log()`.
 Usa `console.log()`.
 ```
 
+***
 
 ## Bloque de código
 
