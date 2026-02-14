@@ -127,7 +127,7 @@ https://github.com
 
 ## Resultado
 
-![Ejemplo](https://via.placeholder.com/150)
+![Markdown](markdown.png)
 
 ## Sintaxis
 
@@ -191,3 +191,271 @@ function hola() {
   console.log("Hola mundo");
 }
 ```
+
+
+---
+
+# 8️⃣ TABLAS
+
+## Resultado
+
+| Izquierda | Centro | Derecha |
+|:----------|:------:|--------:|
+| Texto     | Texto  | Texto   |
+
+## Sintaxis
+
+```md
+| Izquierda | Centro | Derecha |
+|:----------|:------:|--------:|
+| Texto     | Texto  | Texto   |
+```
+
+---
+
+# 9️⃣ LÍNEAS HORIZONTALES
+
+## Resultado
+
+---
+
+***
+
+___
+
+## Sintaxis
+
+```md
+---
+***
+___
+```
+
+---
+
+# 🔟 CHECKLIST (GitHub)
+
+## Resultado
+
+- [x] Tarea completada
+- [ ] Tarea pendiente
+
+## Sintaxis
+
+```md
+- [x] Tarea completada
+- [ ] Tarea pendiente
+```
+
+---
+
+# 1️⃣1️⃣ HTML DENTRO DE MARKDOWN
+
+## Resultado
+
+<b>Texto en negrita con HTML</b>
+<br>
+<hr>
+
+## Sintaxis
+
+```html
+<b>Texto en negrita con HTML</b>
+<br>
+<hr>
+```
+
+---
+
+# 1️⃣2️⃣ DETALLES DESPLEGABLES (GitHub)
+
+## Resultado
+
+<details>
+  <summary>Haz clic para expandir</summary>
+
+  Contenido oculto aquí.
+
+</details>
+
+## Sintaxis
+
+```html
+<details>
+  <summary>Haz clic para expandir</summary>
+
+  Contenido oculto aquí.
+
+</details>
+```
+
+---
+
+# 1️⃣3️⃣ BADGES
+
+## Resultado
+
+![Estado](https://img.shields.io/badge/Estado-En%20progreso-blue)
+
+## Sintaxis
+
+```md
+![Estado](https://img.shields.io/badge/Estado-En%20progreso-blue)
+```
+
+---
+
+# 1️⃣4️⃣ EMOJIS
+
+## Resultado
+
+😄 🚀 🔥
+
+## Sintaxis
+
+```md
+😄 🚀 🔥
+
+:smile:
+:rocket:
+:fire:
+```
+
+---
+
+# 1️⃣5️⃣ ANCLAS INTERNAS
+
+## Resultado
+
+[Ir a Tablas](#8️⃣-tablas)
+
+## Sintaxis
+
+```md
+[Ir a Tablas](#8️⃣-tablas)
+```
+
+---
+
+# 1️⃣6️⃣ ESCAPAR CARACTERES
+
+## Resultado
+
+\*Esto no será cursiva\*
+
+## Sintaxis
+
+```md
+\*Esto no será cursiva\*
+```
+
+---
+
+# 1️⃣7️⃣ COMENTARIOS OCULTOS
+
+## Sintaxis
+
+```md
+<!-- Este comentario no se verá -->
+```
+
+---
+
+# 1️⃣8️⃣ SALTOS DE LÍNEA
+
+## Resultado
+
+Línea uno  
+Línea dos  
+
+## Sintaxis
+
+```md
+Línea uno␠␠
+Línea dos
+```
+
+(Usa dos espacios al final de la línea)
+
+---
+
+# 1️⃣9️⃣ ALERTAS GITHUB
+
+## Resultado
+
+> [!NOTE]
+> Nota informativa
+
+> [!WARNING]
+> Advertencia importante
+
+## Sintaxis
+
+```md
+> [!NOTE]
+> Nota informativa
+
+> [!WARNING]
+> Advertencia importante
+```
+
+---
+
+# 2️⃣0️⃣ DIAGRAMAS MERMAID
+
+## Resultado
+
+```mermaid
+graph TD
+A[Inicio] --> B[Proceso]
+B --> C[Fin]
+```
+
+## Sintaxis
+
+```md
+```mermaid
+graph TD
+A[Inicio] --> B[Proceso]
+B --> C[Fin]
+```
+```
+
+---
+
+# 2️⃣1️⃣ ENLACES POR REFERENCIA
+
+## Resultado
+
+[Google][1]
+
+[1]: https://google.com
+
+## Sintaxis
+
+```md
+[Google][1]
+
+[1]: https://google.com
+```
+
+---
+
+# 2️⃣2️⃣ NOTAS AL PIE
+
+## Resultado
+
+Texto con referencia[^1]
+
+[^1]: Esto es una nota al pie.
+
+## Sintaxis
+
+```md
+Texto con referencia[^1]
+
+[^1]: Esto es una nota al pie.
+```
+
+---
+
