@@ -1,11 +1,10 @@
-# 📘 GUÍA DEFINITIVA COMPLETA DE MARKDOWN (README.md)
+# 📘 GUÍA MARKDOWN (README.md)
 
 Esta guía incluye absolutamente TODO lo que puedes usar en Markdown
-compatible con GitHub Flavored Markdown (GFM).
 
 ---
 
-# 📑 TABLA DE CONTENIDOS
+#  TABLA DE CONTENIDOS
 
 1. Encabezados  
 2. Texto y formato  
@@ -174,6 +173,14 @@ Usa `console.log()`.
 ```
 
 ## Bloque de código
+Resultado:
+
+Con tres comillas invertidas (```)
+
+```
+Código aquí
+```
+
 
 Sintaxis:
 
