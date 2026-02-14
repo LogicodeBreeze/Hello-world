@@ -175,17 +175,8 @@ Usa `console.log()`.
 
 ## Bloque de código
 
-Resultado:
-
-```javascript
-function hola() {
-  console.log("Hola mundo");
-}
-```
-
 Sintaxis:
 
-````md
 ```javascript
 function hola() {
   console.log("Hola mundo");
