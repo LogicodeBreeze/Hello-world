@@ -175,17 +175,16 @@ Usa `console.log()`.
 ## Bloque de código
 
 ## Resultado
-
-#### Con tres comillas invertidas (```)
-
-
-Sintaxis:
-
 ```javascript
 function hola() {
   console.log("Hola mundo");
 }
 ```
+
+
+## Sintaxis
+
+#### Con tres comillas invertidas (```)
 
 
 ---
