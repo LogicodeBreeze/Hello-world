@@ -26,8 +26,7 @@ Esta guía incluye absolutamente TODO lo que puedes usar en Markdown
 18. Saltos de línea  
 19. Alertas GitHub  
 20. Diagramas Mermaid  
-21. Enlaces por referencia  
-22. Notas al pie  
+
 
 ---
 
@@ -420,43 +419,4 @@ B --> C[Fin]
 
 
 
-***
-
----
-
-# 2️⃣1️⃣ ENLACES POR REFERENCIA
-
-## Resultado
-
-[Google][1]
-
-[1]: https://google.com
-
-## Sintaxis
-
-```md
-[Google][1]
-
-[1]: https://google.com
-```
-
----
-
-# 2️⃣2️⃣ NOTAS AL PIE
-
-## Resultado
-
-Texto con referencia[^1]
-
-[^1]: Esto es una nota al pie.
-
-## Sintaxis
-
-```md
-Texto con referencia[^1]
-
-[^1]: Esto es una nota al pie.
-```
-
----
 
