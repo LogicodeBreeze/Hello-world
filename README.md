@@ -162,24 +162,21 @@ Imagen con enlace:
 
 ## Código en línea
 
-Resultado:
+## Resultado
 
 Usa `console.log()`.
 
-Sintaxis:
+## Sintaxis
 
 ```md
 Usa `console.log()`.
 ```
 
 ## Bloque de código
-Resultado:
 
-Con tres comillas invertidas (```)
+## Resultado
 
-```
-Código aquí
-```
+#### Con tres comillas invertidas (```)
 
 
 Sintaxis:
