@@ -1,48 +1,40 @@
-# Markdown y Github Pages
+# 📘 GUÍA DEFINITIVA COMPLETA DE MARKDOWN (README.md)
 
- En esta práctica se hará uso del lenguaje de marcas **Markdown** y de la opción **Github Pages** del propio **Github**.
- 
----
-
-
-#  GUÍA DE MARKDOWN (README.md)
-
-Esta guía contiene prácticamente **todo lo que puedes hacer con Markdown**
+Esta guía incluye absolutamente TODO lo que puedes usar en Markdown
+compatible con GitHub Flavored Markdown (GFM).
 
 ---
 
 # 📑 TABLA DE CONTENIDOS
 
-- Encabezados
-- Texto y formato
-- Listas
-- Enlaces
-- Imágenes
-- Citas
-- Código
-- Tablas
-- Líneas horizontales
-- Checklist
-- HTML en Markdown
-- Detalles desplegables
-- Badges
-- Emojis
-- Anclas
-- Escapar caracteres
-- Comentarios
+1. Encabezados  
+2. Texto y formato  
+3. Listas  
+4. Enlaces  
+5. Imágenes  
+6. Citas  
+7. Código  
+8. Tablas  
+9. Líneas horizontales  
+10. Checklist  
+11. HTML en Markdown  
+12. Detalles desplegables  
+13. Badges  
+14. Emojis  
+15. Anclas internas  
+16. Escapar caracteres  
+17. Comentarios  
+18. Saltos de línea  
+19. Alertas GitHub  
+20. Diagramas Mermaid  
+21. Enlaces por referencia  
+22. Notas al pie  
 
 ---
 
-# 1️⃣ Encabezados
+# 1️⃣ ENCABEZADOS
 
-# Título H1
-## Título H2
-### Título H3
-#### Título H4
-##### Título H5
-###### Título H6
-
-Sintaxis:
+## Resultado
 
 # H1
 ## H2
@@ -51,242 +43,151 @@ Sintaxis:
 ##### H5
 ###### H6
 
+## Sintaxis
+
+```md
+# H1
+## H2
+### H3
+#### H4
+##### H5
+###### H6
+```
+
 ---
 
-# 2️⃣ Texto y Formato
+# 2️⃣ TEXTO Y FORMATO
 
+## Resultado
+
+**Negrita**  
+*Itálica*  
+***Negrita + Itálica***  
+~~Tachado~~  
+<u>Subrayado (HTML)</u>
+
+## Sintaxis
+
+```md
 **Negrita**
 *Itálica*
-***Negrita e Itálica***
-~~Texto tachado~~
-
-Sintaxis:
-
-**Negrita**
-*Itálica*
-***Negrita e Itálica***
+***Negrita + Itálica***
 ~~Tachado~~
+<u>Subrayado</u>
+```
 
 ---
 
-# 3️⃣ Listas
+# 3️⃣ LISTAS
 
-## Lista desordenada
-
-- Elemento 1
-- Elemento 2
-  - Sub elemento
-  - Otro sub elemento
-
-Sintaxis:
+## Resultado
 
 - Elemento 1
 - Elemento 2
   - Sub elemento
-
-## Lista ordenada
+    - Sub sub elemento
 
 1. Paso uno
 2. Paso dos
 3. Paso tres
 
-Sintaxis:
+## Sintaxis
+
+```md
+- Elemento 1
+- Elemento 2
+  - Sub elemento
+    - Sub sub elemento
 
 1. Paso uno
 2. Paso dos
 3. Paso tres
+```
 
 ---
 
-# 4️⃣ Enlaces
+# 4️⃣ ENLACES
 
+## Resultado
+
+[Google](https://www.google.com)  
+https://github.com
+
+## Sintaxis
+
+```md
 [Google](https://www.google.com)
 
-https://www.github.com
-
-Sintaxis:
-
-[Texto](https://url.com)
+https://github.com
+```
 
 ---
 
-# 5️⃣ Imágenes
+# 5️⃣ IMÁGENES
 
-![MARKDOWN](markdown.png)
+## Resultado
 
-Sintaxis:
+![Ejemplo](https://via.placeholder.com/150)
 
-![Alt](https://url-imagen.com)
+## Sintaxis
+
+```md
+![Ejemplo](https://via.placeholder.com/150)
+```
+
+Imagen con enlace:
+
+```md
+[![Imagen](https://via.placeholder.com/100)](https://google.com)
+```
 
 ---
 
-# 6️⃣ Citas
+# 6️⃣ CITAS
 
-> Esto es una cita
+## Resultado
+
+> Esto es una cita  
 >> Cita anidada
 
-Sintaxis:
+## Sintaxis
 
-> Cita
->> Sub cita
+```md
+> Esto es una cita
+>> Cita anidada
+```
 
 ---
 
-# 7️⃣ Código
+# 7️⃣ CÓDIGO
 
 ## Código en línea
 
-Usa `console.log()` para imprimir.
+Resultado:
+
+Usa `console.log()`.
 
 Sintaxis:
 
-`codigo`
+```md
+Usa `console.log()`.
+```
 
 ## Bloque de código
 
+Resultado:
+
 ```javascript
-function saludar() {
+function hola() {
   console.log("Hola mundo");
 }
 ```
 
 Sintaxis:
 
-```lenguaje
-codigo aqui
+````md
+```javascript
+function hola() {
+  console.log("Hola mundo");
+}
 ```
-
----
-
-# 8️⃣ Tablas
-
-Alineación:
-
-| Izquierda | Centro | Derecha |
-|:----------|:------:|--------:|
-| Texto     | Texto  | Texto   |
-
----
-
-# 9️⃣ Líneas horizontales
-
----
-***
-___
-
----
-
-# 🔟 Checklist (GitHub)
-
-- [x] Tarea completada
-- [ ] Tarea pendiente
-
-Sintaxis:
-
-- [x] Hecho
-- [ ] Pendiente
-
----
-
-# 1️⃣1️⃣ HTML dentro de Markdown
-
-<b>Texto en negrita con HTML</b>
-<br>
-<hr>
-
-Sintaxis:
-
-<b>Texto</b>
-<br>
-
----
-
-# 1️⃣2️⃣ Detalles desplegables (GitHub)
-
-<details>
-  <summary>Haz clic para expandir</summary>
-
-  Contenido oculto aquí.
-
-</details>
-
----
-
-# 1️⃣3️⃣ Badges
-
-![Estado](https://img.shields.io/badge/Estado-En%20progreso-blue)
-
-Sintaxis:
-
-![Nombre](https://img.shields.io/badge/texto-color)
-
----
-
-# 1️⃣4️⃣ Emojis
-
-😄 🚀 🔥
-
-Sintaxis:
-
-:smile:
-:rocket:
-:fire:
-
----
-
-# 1️⃣5️⃣ Anclas internas
-
-[Ir a Tablas](#8️⃣-tablas)
-
-Sintaxis:
-
-[Texto](#nombre-seccion)
-
----
-
-# 1️⃣6️⃣ Escapar caracteres
-
-\*Esto no será cursiva\*
-
-Sintaxis:
-
-\*texto\*
-
----
-
-# 1️⃣7️⃣ Comentarios ocultos
-
-<!-- Este comentario no se verá -->
-
-Sintaxis:
-
-<!-- Comentario -->
-
----
-
-
-## Módulos de desarrollo de aplicaciones web
-- Entornos de desarrollo
-- Programación
-- Sistemas informáticos 
-- Base de datos
-- Lenguaje de marcas
-- Amazon web services
-- Despliegue de aplicaciones web
-- Diseño de interfaz web
-- Desarrollo de entorno servidor
-- Desarrollo de entorno cliente
-
-
-
-### *Enlaces*
--  [Guía básica de Markdown](https://www.markdownguide.org/basic-syntax/)  
-
-
-
-
-
-
-  
-
-  
